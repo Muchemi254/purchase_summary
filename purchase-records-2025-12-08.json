@@ -1,0 +1,1706 @@
+{
+  "records": [
+    {
+      "id": 1764492632559,
+      "date": "2025-11-03",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764492662126,
+          "supplier": "Patrick Maina",
+          "amount": "1800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492723175,
+          "supplier": "JB",
+          "amount": "4350",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492743191,
+          "supplier": "MEVED",
+          "amount": "3800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492767048,
+          "supplier": "KENBLEST",
+          "amount": "2226",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 12176,
+      "chequeTotal": 0,
+      "totalExpenditure": 12176,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764492810278,
+      "date": "2025-11-04",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764492833362,
+          "supplier": "GATHIGA",
+          "amount": "4030",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492859443,
+          "supplier": "MWANZIA",
+          "amount": "10030",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492878946,
+          "supplier": "KUKU SPUR",
+          "amount": "4696",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492902251,
+          "supplier": "KENBLEST",
+          "amount": "2120",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764492922169,
+          "supplier": "RWATHIA",
+          "amount": "22962",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 20876,
+      "chequeTotal": 22962,
+      "totalExpenditure": 43838,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764493477097,
+      "date": "2025-11-05",
+      "totalBudget": "",
+      "cashReceived": 60,
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764493483756,
+          "supplier": "ROSSO BIANCO",
+          "amount": "13820",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493627423,
+          "supplier": "HYDRATE",
+          "amount": "500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493707378,
+          "supplier": "ROSEMARY ",
+          "amount": "400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493731104,
+          "supplier": "PURETOP",
+          "amount": "900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493746393,
+          "supplier": "SHAMOS",
+          "amount": "500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493764895,
+          "supplier": "KENBLEST",
+          "amount": "2544",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493790895,
+          "supplier": "ERIS",
+          "amount": "15312",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 18664,
+      "chequeTotal": 15312,
+      "totalExpenditure": 33976,
+      "cashBalance": 60,
+      "cashAvailable": 60
+    },
+    {
+      "id": 1764493221008,
+      "date": "2025-11-06",
+      "totalBudget": "",
+      "cashReceived": 2460,
+      "balanceBF": 60,
+      "receipts": [
+        {
+          "id": 1764493234189,
+          "supplier": "ROSSO BIANCO",
+          "amount": "1250",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493251565,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493275781,
+          "supplier": "GATHIGA",
+          "amount": "1800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493302957,
+          "supplier": "SKYCITY",
+          "amount": "3900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493319790,
+          "supplier": "NGARA",
+          "amount": "1925",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493356464,
+          "supplier": "MEVED",
+          "amount": "1900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493370632,
+          "supplier": "KENBLEST",
+          "amount": "2279",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493555227,
+          "supplier": "GATHIGA",
+          "amount": "2530",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493576755,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764493600700,
+          "supplier": "NGARA",
+          "amount": "400",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 2325,
+      "mpesaTotal": 17639,
+      "chequeTotal": 0,
+      "totalExpenditure": 19964,
+      "cashBalance": 195,
+      "cashAvailable": 2520
+    },
+    {
+      "id": 1764500952080,
+      "date": "2025-11-07",
+      "totalBudget": "",
+      "cashReceived": 2000,
+      "balanceBF": 195,
+      "receipts": [
+        {
+          "id": 1764500992197,
+          "supplier": "ROSSO BIANCO",
+          "amount": "6500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501011160,
+          "supplier": "CHANDARANA",
+          "amount": "1998",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501032751,
+          "supplier": "GATHIGA",
+          "amount": "3310",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501047431,
+          "supplier": "MWANZIA",
+          "amount": "4780",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501060254,
+          "supplier": "JUMA FISH",
+          "amount": "3760",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501072494,
+          "supplier": "WANJOHI CHARCOAL",
+          "amount": "2800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501093471,
+          "supplier": "RUWAN",
+          "amount": "600",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501109736,
+          "supplier": "KENBLEST",
+          "amount": "2438",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501128054,
+          "supplier": "PAJRAH CHEESE",
+          "amount": "1700",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501160847,
+          "supplier": "RWATHIA",
+          "amount": "22962",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 1998,
+      "mpesaTotal": 25888,
+      "chequeTotal": 22962,
+      "totalExpenditure": 50848,
+      "cashBalance": 197,
+      "cashAvailable": 2195
+    },
+    {
+      "id": 1764501221992,
+      "date": "2025-11-08",
+      "totalBudget": "",
+      "cashReceived": 31320,
+      "balanceBF": 197,
+      "receipts": [
+        {
+          "id": 1764501278723,
+          "supplier": "RWATHIA",
+          "amount": "20494",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501311122,
+          "supplier": "MPESA TRANSACTION COST",
+          "amount": "78",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501332449,
+          "supplier": "ROSSO BIANCO",
+          "amount": "4350",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501345602,
+          "supplier": "GATHIGA",
+          "amount": "1800",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501361154,
+          "supplier": "BEST CHOICE",
+          "amount": "3400",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501382362,
+          "supplier": "PIUS MILK",
+          "amount": "1400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501405498,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1400",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501423377,
+          "supplier": "JB",
+          "amount": "4150",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501434997,
+          "supplier": "NGARA",
+          "amount": "200",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764501458418,
+          "supplier": "KENBLEST",
+          "amount": "4717",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": true,
+      "cashTotal": 31722,
+      "mpesaTotal": 10267,
+      "chequeTotal": 0,
+      "totalExpenditure": 41989,
+      "cashBalance": -205,
+      "cashAvailable": 31517
+    },
+    {
+      "id": 1764502880652,
+      "date": "2025-11-10",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764502887276,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764502906642,
+          "supplier": "MWANZIA",
+          "amount": "100",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764502997694,
+          "supplier": "MEVED",
+          "amount": "3800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503026203,
+          "supplier": "KUKU SPUR",
+          "amount": "4841",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503042475,
+          "supplier": "JUMA FISH",
+          "amount": "2000",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503057475,
+          "supplier": "PIUS MILK",
+          "amount": "1400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503074291,
+          "supplier": "ABDI GOAT",
+          "amount": "6800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503092478,
+          "supplier": "Patrick Maina",
+          "amount": "1800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503110151,
+          "supplier": "KENBLEST",
+          "amount": "2968",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503565939,
+          "supplier": "RWATHIA",
+          "amount": "11069",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503584191,
+          "supplier": "SYZO",
+          "amount": "15500",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503774600,
+          "supplier": "AQUAMIST",
+          "amount": "13005",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 39294,
+      "chequeTotal": 26569,
+      "totalExpenditure": 65863,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764503442755,
+      "date": "2025-11-11",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764503461042,
+          "supplier": "ROSSO BIANCO",
+          "amount": "9800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503476570,
+          "supplier": "MWANZIA",
+          "amount": "9985",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503500263,
+          "supplier": "HYDRATE",
+          "amount": "300",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503513304,
+          "supplier": "GATHIGA",
+          "amount": "5060",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764503532003,
+          "supplier": "KENBLEST",
+          "amount": "2650",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 27795,
+      "chequeTotal": 0,
+      "totalExpenditure": 27795,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764503912978,
+      "date": "2025-11-12",
+      "totalBudget": "",
+      "cashReceived": 20,
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764503967716,
+          "supplier": "GATHIGA",
+          "amount": "1780",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504352190,
+          "supplier": "ISAAC MAINA",
+          "amount": "600",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504367028,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504382232,
+          "supplier": "SKYCITY",
+          "amount": "2340",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504397167,
+          "supplier": "MWANZIA",
+          "amount": "920",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504408905,
+          "supplier": "PURETOP",
+          "amount": "900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504430614,
+          "supplier": "KENBLEST",
+          "amount": "2650",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504454338,
+          "supplier": "RWATHIA",
+          "amount": "20340",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 32110,
+      "chequeTotal": 0,
+      "totalExpenditure": 32110,
+      "cashBalance": 20,
+      "cashAvailable": 20
+    },
+    {
+      "id": 1764504532511,
+      "date": "2025-11-13",
+      "totalBudget": "",
+      "cashReceived": 700,
+      "balanceBF": 20,
+      "receipts": [
+        {
+          "id": 1764504533826,
+          "supplier": "ZENKO",
+          "amount": "10927",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504547594,
+          "supplier": "ROSSO BIANCO",
+          "amount": "6200",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504581373,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1540",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504607640,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504627819,
+          "supplier": "MWANZIA",
+          "amount": "575",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504641453,
+          "supplier": "MEVED",
+          "amount": "2660",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504654070,
+          "supplier": "RUWAN",
+          "amount": "600",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504671905,
+          "supplier": "PUKKA ICECREAM",
+          "amount": "3000",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764504690645,
+          "supplier": "KENBLEST",
+          "amount": "2809",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764580505769,
+          "supplier": "CHANDARANA",
+          "amount": "648",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": true,
+      "cashTotal": 648,
+      "mpesaTotal": 19964,
+      "chequeTotal": 10927,
+      "totalExpenditure": 31539,
+      "cashBalance": 72,
+      "cashAvailable": 720
+    },
+    {
+      "id": 1764505031102,
+      "date": "2025-11-14",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764505041197,
+          "supplier": "GATHIGA",
+          "amount": "2530",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505104204,
+          "supplier": "MUSA PEANUTS",
+          "amount": "1200",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505132523,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505145437,
+          "supplier": "MWANZIA",
+          "amount": "7410",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505160579,
+          "supplier": "JB",
+          "amount": "4350",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505179620,
+          "supplier": "PIUS MILK",
+          "amount": "1400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505198402,
+          "supplier": "KENBLEST",
+          "amount": "2862",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505224800,
+          "supplier": "RWATHIA",
+          "amount": "20945",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": true,
+      "cashTotal": 0,
+      "mpesaTotal": 22332,
+      "chequeTotal": 20945,
+      "totalExpenditure": 43277,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764505273682,
+      "date": "2025-11-15",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764505281928,
+          "supplier": "MWANZIA",
+          "amount": "200",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505299327,
+          "supplier": "MWANZIA",
+          "amount": "875",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505314471,
+          "supplier": "PIUS MILK",
+          "amount": "2800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505327616,
+          "supplier": "GATHIGA",
+          "amount": "5060",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505336235,
+          "supplier": "PURETOP",
+          "amount": "900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505349943,
+          "supplier": "SKYCITY",
+          "amount": "2340",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505360975,
+          "supplier": "ROSSO BIANCO",
+          "amount": "3900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505380550,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1540",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505397436,
+          "supplier": "RWATHIA",
+          "amount": "26237",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 43852,
+      "chequeTotal": 0,
+      "totalExpenditure": 43852,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764505645271,
+      "date": "2025-11-17",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764505655049,
+          "supplier": "ROSSO BIANCO",
+          "amount": "7725",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505682017,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505697921,
+          "supplier": "Patrick Maina",
+          "amount": "800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505711017,
+          "supplier": "RUWAN",
+          "amount": "600",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505728960,
+          "supplier": "ABDI GOAT",
+          "amount": "7480",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505749832,
+          "supplier": "JUMA FISH",
+          "amount": "2000",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505773151,
+          "supplier": "MWANZIA",
+          "amount": "1850",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505789288,
+          "supplier": "WANJOHI CHARCOAL",
+          "amount": "2800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505803241,
+          "supplier": "MEVED",
+          "amount": "380",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505813632,
+          "supplier": "KENBLEST",
+          "amount": "2650",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505885279,
+          "supplier": "RWATHIA",
+          "amount": "12317",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764505900528,
+          "supplier": "PURE BOTIQUE",
+          "amount": "10440",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 28865,
+      "chequeTotal": 22757,
+      "totalExpenditure": 51622,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764506373765,
+      "date": "2025-11-18",
+      "totalBudget": "",
+      "cashReceived": 648,
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764506401329,
+          "supplier": "GATHIGA",
+          "amount": "1800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506425553,
+          "supplier": "GATHIGA",
+          "amount": "2530",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506438631,
+          "supplier": "CHANDARANA",
+          "amount": "648",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506456998,
+          "supplier": "RWATHIA",
+          "amount": "4227",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506475655,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506486624,
+          "supplier": "HYDRATE",
+          "amount": "500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506508157,
+          "supplier": "MWANZIA",
+          "amount": "8450",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506535332,
+          "supplier": "KUKU SPUR",
+          "amount": "6054",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764506548589,
+          "supplier": "KENBLEST",
+          "amount": "2968",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": true,
+      "cashTotal": 648,
+      "mpesaTotal": 29109,
+      "chequeTotal": 0,
+      "totalExpenditure": 29757,
+      "cashBalance": 0,
+      "cashAvailable": 648
+    },
+    {
+      "id": 1764507026687,
+      "date": "2025-11-19",
+      "totalBudget": "",
+      "cashReceived": 1400,
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764507038513,
+          "supplier": "RWATHIA",
+          "amount": "19649",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507122223,
+          "supplier": "BROWN MWENESI",
+          "amount": "1200",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507149346,
+          "supplier": "ROSSO BIANCO",
+          "amount": "11810",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507169946,
+          "supplier": "GATHIGA",
+          "amount": "1800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507225239,
+          "supplier": "CHANDARANA",
+          "amount": "200",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507237278,
+          "supplier": "JB",
+          "amount": "4350",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507248775,
+          "supplier": "MWANZIA",
+          "amount": "800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507267857,
+          "supplier": "MWANZIA",
+          "amount": "200",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507279096,
+          "supplier": "MWANZIA",
+          "amount": "400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507295033,
+          "supplier": "MEVED",
+          "amount": "4560",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507307874,
+          "supplier": "KENBLEST",
+          "amount": "2915",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": true,
+      "cashTotal": 1400,
+      "mpesaTotal": 26835,
+      "chequeTotal": 19649,
+      "totalExpenditure": 47884,
+      "cashBalance": 0,
+      "cashAvailable": 1400
+    },
+    {
+      "id": 1764507616670,
+      "date": "2025-11-20",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764507640418,
+          "supplier": "SHAMOS",
+          "amount": "500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507654538,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1540",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507668950,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507684400,
+          "supplier": "MWANZIA",
+          "amount": "580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507701541,
+          "supplier": "BADANE",
+          "amount": "22260",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507722323,
+          "supplier": "KENBLEST",
+          "amount": "2915",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764507755477,
+          "supplier": "SYZO",
+          "amount": "16430",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 30375,
+      "chequeTotal": 16430,
+      "totalExpenditure": 46805,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764508103263,
+      "date": "2025-11-21",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764508110262,
+          "supplier": "ROSSO BIANCO",
+          "amount": "8760",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508127405,
+          "supplier": "GATHIGA",
+          "amount": "2530",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508149381,
+          "supplier": "GATHIGA",
+          "amount": "1500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508159378,
+          "supplier": "SKYCITY",
+          "amount": "2340",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508170706,
+          "supplier": "MWANZIA",
+          "amount": "10030",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508202026,
+          "supplier": "KENBLEST",
+          "amount": "2809",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508219343,
+          "supplier": "RWATHIA",
+          "amount": "13044",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 38204,
+      "chequeTotal": 2809,
+      "totalExpenditure": 41013,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764508281002,
+      "date": "2025-11-22",
+      "totalBudget": "",
+      "cashReceived": 2463,
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764508288896,
+          "supplier": "RWATHIA",
+          "amount": "13142",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508298271,
+          "supplier": "NGARA",
+          "amount": "1705",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508347605,
+          "supplier": "GATHIGA",
+          "amount": "5080",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508363853,
+          "supplier": "CHANDARANA",
+          "amount": "648",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508376092,
+          "supplier": "ROSSO BIANCO",
+          "amount": "4160",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508395836,
+          "supplier": "ABDI GOAT",
+          "amount": "7140",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508407668,
+          "supplier": "NYAGA BUTCHER",
+          "amount": "900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508433132,
+          "supplier": "RUWAN",
+          "amount": "600",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508456922,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1540",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508475059,
+          "supplier": "JUMA FISH",
+          "amount": "2000",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508490262,
+          "supplier": "KENBLEST",
+          "amount": "5671",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764581346865,
+          "supplier": "CHANDARANA",
+          "amount": "110",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": true,
+      "cashTotal": 2463,
+      "mpesaTotal": 27091,
+      "chequeTotal": 13142,
+      "totalExpenditure": 42696,
+      "cashBalance": 0,
+      "cashAvailable": 2463
+    },
+    {
+      "id": 1764508573557,
+      "date": "2025-11-24",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764508582812,
+          "supplier": "MEATLAND",
+          "amount": "2580",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508595835,
+          "supplier": "PURETOP",
+          "amount": "450",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508605908,
+          "supplier": "PIUS MILK",
+          "amount": "2800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508620473,
+          "supplier": "MEVED",
+          "amount": "3800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508632536,
+          "supplier": "KENBLEST",
+          "amount": "2650",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764508693524,
+          "supplier": "RWATHIA",
+          "amount": "22860",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 12280,
+      "chequeTotal": 22860,
+      "totalExpenditure": 35140,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764509432404,
+      "date": "2025-11-26",
+      "totalBudget": "",
+      "cashReceived": 1200,
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764509445480,
+          "supplier": "BROWN MWENESI",
+          "amount": "1200",
+          "paymentMode": "cash",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509468983,
+          "supplier": "ROSSO BIANCO",
+          "amount": "5445",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509483472,
+          "supplier": "GATHIGA",
+          "amount": "1800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509514033,
+          "supplier": "SKYCITY",
+          "amount": "1560",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509526790,
+          "supplier": "ISAAC MAINA",
+          "amount": "800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509543514,
+          "supplier": "KENBLEST",
+          "amount": "2968",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 1200,
+      "mpesaTotal": 12573,
+      "chequeTotal": 0,
+      "totalExpenditure": 13773,
+      "cashBalance": 0,
+      "cashAvailable": 1200
+    },
+    {
+      "id": 1764509590360,
+      "date": "2025-11-27",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764509612390,
+          "supplier": "MEATLAND",
+          "amount": "3440",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509633341,
+          "supplier": "SKYCITY",
+          "amount": "3900",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509644486,
+          "supplier": "HYDRATE",
+          "amount": "500",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509656079,
+          "supplier": "SUSAN NJUGUNA",
+          "amount": "1540",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509672336,
+          "supplier": "KUKU SPUR",
+          "amount": "4416",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509681414,
+          "supplier": "MEVED",
+          "amount": "3800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509702431,
+          "supplier": "RUWAN",
+          "amount": "1050",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509719975,
+          "supplier": "GEOFFREY BANANAS",
+          "amount": "250",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509743239,
+          "supplier": "KENBLEST",
+          "amount": "2703",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509772039,
+          "supplier": "GATHIGA",
+          "amount": "2530",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764509790158,
+          "supplier": "RWATHIA",
+          "amount": "15363",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 24129,
+      "chequeTotal": 15363,
+      "totalExpenditure": 39492,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    },
+    {
+      "id": 1764593737271,
+      "date": "2025-12-01",
+      "totalBudget": "",
+      "cashReceived": "",
+      "balanceBF": 0,
+      "receipts": [
+        {
+          "id": 1764593744609,
+          "supplier": "Patrick Maina",
+          "amount": "800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593763928,
+          "supplier": "WANJOHI CHARCOAL",
+          "amount": "2800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593799468,
+          "supplier": "MWANZIA",
+          "amount": "3650",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593810864,
+          "supplier": "PIUS MILK",
+          "amount": "1400",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593823912,
+          "supplier": "MEVED",
+          "amount": "3800",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593839712,
+          "supplier": "JB",
+          "amount": "4650",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593853170,
+          "supplier": "KENBLEST",
+          "amount": "2120",
+          "paymentMode": "mpesa",
+          "supplierSuggestions": []
+        },
+        {
+          "id": 1764593870110,
+          "supplier": "RWATHIA",
+          "amount": "17169",
+          "paymentMode": "cheque",
+          "supplierSuggestions": []
+        }
+      ],
+      "stopCarryOver": false,
+      "cashTotal": 0,
+      "mpesaTotal": 19220,
+      "chequeTotal": 17169,
+      "totalExpenditure": 36389,
+      "cashBalance": 0,
+      "cashAvailable": 0
+    }
+  ],
+  "suppliers": [
+    "Patrick Maina",
+    "JB",
+    "MEVED",
+    "KENBLEST",
+    "GATHIGA",
+    "MWANZIA",
+    "KUKU SPUR",
+    "RWATHIA",
+    "ROSSO BIANCO",
+    "MEATLAND",
+    "SKYCITY",
+    "NGARA",
+    "SUSAN NJUGUNA",
+    "HYDRATE",
+    "ROSEMARY ",
+    "PURETOP",
+    "SHAMOS",
+    "ERIS",
+    "CHANDARANA",
+    "JUMA FISH",
+    "WANJOHI CHARCOAL",
+    "RUWAN",
+    "PAJRAH CHEESE",
+    "MPESA TRANSACTION COST",
+    "BEST CHOICE",
+    "PIUS MILK",
+    "ABDI GOAT",
+    "SYZO",
+    "AQUAMIST",
+    "ISAAC MAINA",
+    "ZENKO",
+    "PUKKA ICECREAM",
+    "MUSA PEANUTS",
+    "PURE BOTIQUE",
+    "BROWN MWENESI",
+    "BADANE",
+    "NYAGA BUTCHER",
+    "GEOFFREY BANANAS"
+  ],
+  "exportDate": "2025-12-08T03:15:55.932Z"
+}
