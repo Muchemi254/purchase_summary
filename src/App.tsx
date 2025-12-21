@@ -11,10 +11,20 @@ import PrintPreviewModal from './components/ui/PrintPreviewModal';
 import PrintLayout from './components/ui/PrintLayout';
 import { FileDown } from 'lucide-react';
 
+import { useAuth } from "./context/AuthContext";
+import AuthScreen from "./components/ui/AuthScreen";
+
+
+
 export default function PurchaseTracker() {
+// --- Auth State ---
+const { user, logout, loading } = useAuth();
+
+
+
   // Data State
-  const [records, setRecords] = useState([]);
-  const [suppliers, setSuppliers] = useState([]);
+  const [records, setRecords] = useState<any[]>([]);
+  const [suppliers, setSuppliers] = useState<string[]>([]);
   
   // UI/Form State
   const [currentRecord, setCurrentRecord] = useState(null);
@@ -31,9 +41,29 @@ export default function PurchaseTracker() {
     endDate: ''
   });
 
+    // --- Effects ---
   useEffect(() => {
-    loadData();
-  }, []);
+    if (!user) return;
+
+    const unsubR = StorageService.subscribeRecords(setRecords);
+    const unsubS = StorageService.subscribeSuppliers(setSuppliers);
+
+    return () => {
+      unsubR();
+      unsubS();
+    };
+  }, [user]);
+
+
+useEffect(() => {
+  if (!user) return;  // wait for user
+  loadData();
+}, [user]);
+
+
+
+
+
 
   const loadData = async () => {
     const loadedRecords = await StorageService.loadRecords();
@@ -196,39 +226,43 @@ const exportSelectedToPDF = async () => {
   URL.revokeObjectURL(url);
 };
 
-  const saveRecord = () => {
-    const totals = CalculationService.calculateTotals(currentRecord);
-    const recordToSave = { ...currentRecord, ...totals };
-    
-    const newSuppliers = [...suppliers];
-    currentRecord.receipts.forEach(r => {
-      if (r.supplier && !newSuppliers.includes(r.supplier)) {
-        newSuppliers.push(r.supplier);
-      }
-    });
-    
-    let newRecords;
-    if (editingId) {
-      newRecords = records.map(r => r.id === editingId ? recordToSave : r);
-      newRecords = CalculationService.recalculateBalances(newRecords);
-    } else {
-      newRecords = [...records, recordToSave];
+const saveRecord = async () => {
+  if (!currentRecord) return;
+
+  const totals = CalculationService.calculateTotals(currentRecord);
+  const recordToSave = { ...currentRecord, ...totals };
+
+  // Update suppliers in Firebase
+  const updatedSuppliers = [...suppliers];
+  currentRecord.receipts.forEach(r => {
+    if (r.supplier && !updatedSuppliers.includes(r.supplier)) {
+      updatedSuppliers.push(r.supplier);
     }
-    
-    setRecords(newRecords);
-    setSuppliers(newSuppliers);
-    saveData(newRecords, newSuppliers);
+  });
+
+  try {
+    await StorageService.saveRecord(recordToSave);
+    setSuppliers(updatedSuppliers);
     setCurrentRecord(null);
     setEditingId(null);
-  };
+  } catch (error) {
+    console.error("Error saving record:", error);
+    alert("Failed to save record. Please try again.");
+  }
+};
 
-  const deleteRecord = (id) => {
-    if(!window.confirm("Are you sure you want to delete this record?")) return;
-    let newRecords = records.filter(r => r.id !== id);
-    newRecords = CalculationService.recalculateBalances(newRecords);
-    setRecords(newRecords);
-    saveData(newRecords, suppliers);
-  };
+const deleteRecord = async (id:any) => {
+  if (!window.confirm("Are you sure you want to delete this record?")) return;
+
+  try {
+    await StorageService.deleteRecord(id);
+    // No need to update `records` here; subscribeRecords will handle it
+  } catch (error) {
+    console.error("Error deleting record:", error);
+    alert("Failed to delete record. Please try again.");
+  }
+};
+
 
   const toggleRecordSelection = (id) => {
     setSelectedRecords(prev => 
@@ -279,6 +313,10 @@ const exportSelectedToPDF = async () => {
 
   const displayedRecords = getFilteredAndSortedRecords();
 
+  // --- Auth gates (AFTER hooks) ---
+  if (loading) return null;
+  if (!user) return <AuthScreen />;
+
   return (
     <div className="min-h-screen bg-gray-50 p-4">
       <div className="max-w-[1600px] mx-auto">
@@ -286,6 +324,10 @@ const exportSelectedToPDF = async () => {
         {/* Header Section */}
         <div className="bg-white rounded-lg shadow-sm p-4 mb-6 flex flex-col sm:flex-row justify-between items-center gap-4 print:hidden">
           <h1 className="text-2xl font-bold text-gray-800">Purchase Summary Tracker</h1>
+          <button onClick={logout} className="text-sm text-red-600">
+  Logout
+</button>
+
           <div className="flex gap-2">
             <button onClick={exportData} className="flex items-center gap-2 bg-purple-100 text-purple-700 px-3 py-2 rounded hover:bg-purple-200 text-sm font-medium">
               <Download size={16} /> Export

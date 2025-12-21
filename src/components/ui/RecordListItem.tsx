@@ -1,6 +1,7 @@
 import CalculationService from '../services/CalculationService';
 import React, { useState, useEffect } from 'react';
 import { Plus, Trash2, Printer, X, Edit2, Save, XCircle } from 'lucide-react';
+import StorageService from '../services/StorageService';
 
 type Receipt = {
   // Define the structure of a receipt as needed
@@ -88,7 +89,7 @@ function RecordListItem({
             <Edit2 size={20} />
           </button>
           <button
-            onClick={() => onDelete(record.id)}
+          onClick={() => StorageService.deleteRecord(record.id)}
             className="text-red-600 hover:text-red-800"
             title="Delete"
           >
