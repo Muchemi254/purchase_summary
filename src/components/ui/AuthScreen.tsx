@@ -1,9 +1,9 @@
-// src/components/AuthScreen.tsx
 import { useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 
 export default function AuthScreen() {
-  const { googleLogin, emailLogin, emailSignup } = useAuth();
+  // Correct function names from context
+  const { loginWithEmail, signupWithEmail, loginWithGoogle } = useAuth();
   const [mode, setMode] = useState<"login" | "signup">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -13,9 +13,9 @@ export default function AuthScreen() {
     try {
       setError("");
       if (mode === "login") {
-        await emailLogin(email, password);
+        await loginWithEmail(email, password);
       } else {
-        await emailSignup(email, password);
+        await signupWithEmail(email, password);
       }
     } catch (e: any) {
       setError(e.message);
@@ -58,7 +58,7 @@ export default function AuthScreen() {
         </button>
 
         <button
-          onClick={googleLogin}
+          onClick={loginWithGoogle}
           className="w-full bg-red-600 text-white p-2 rounded mb-4"
         >
           Continue with Google
