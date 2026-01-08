@@ -123,6 +123,12 @@ export default function PurchaseTracker() {
     return filtered;
   };
 
+  const previewRecordPDF = (record: PurchaseRecord) => {
+  setSelectedRecords([record.id]);
+  setShowPrintPreview(true);
+};
+
+
   // Record Management
   const startNewRecord = () => {
     const lastRecord = records[records.length - 1];
@@ -438,6 +444,7 @@ export default function PurchaseTracker() {
               }}
               onExportPDF={exportSelectedToPDF}
               onPrintSelected={() => setShowPrintPreview(true)}
+              onPreviewPDF={previewRecordPDF}   // ← REQUIRED
             />
           )}
         </div>
